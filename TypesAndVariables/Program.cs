@@ -10,8 +10,8 @@ short number1 = 32767;                 //   short - max (16 bit, 2 byte)
 int number2 = 2147483647;              //     int - max (32 bit, 4 byte)
 long number3 = 9223372036854775807;    //    long - max (64 bit, 8 byte)
 
-double number4 = 15.4;                 //  double - after comma, 15-16 karakter   (64 bit, 8 byte)
-decimal number5 = 10.4m;               // decimal - after comma, 25-26 karakter  (128 bit, 16 byte)
+double number4 = 15.4;                 //  double - after comma, 15-16 character   (64 bit, 8 byte)
+decimal number5 = 10.4m;               // decimal - after comma, 25-26 character  (128 bit, 16 byte)
 decimal number6 = 10m;                 // decimal - implicit conversion   
 
 //The var keyword is converts the types based on given value
